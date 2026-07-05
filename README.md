@@ -6,6 +6,12 @@
 
 ---
 
+## 🔰 New Here? Start With This
+
+**→ [BEGINNER_START_HERE.md](BEGINNER_START_HERE.md)** — Every concept explained from scratch in plain English: kernel, drivers, BSP, bootloader, QEMU, TrustZone, UFS, git, debugging, AI tools, freelancing. No assumptions. Read this first.
+
+---
+
 ## 🎯 What This Repository Is
 
 This is your **personal embedded Linux mastery program** — not a collection of notes, but a structured, mentor-quality curriculum designed to be used **daily for the next 5 years**.
