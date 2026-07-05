@@ -245,10 +245,66 @@ cat 01_Toolchain_Setup.md
 
 ---
 
+## 📚 Deep-Dive Guide Index (Master Reference)
+
+Complete, standalone deep-dive files you can study in any order:
+
+| File | Topic | Level |
+|------|-------|-------|
+| [05_Bootloaders/01_Complete_Boot_Flow_Deep_Dive.md](05_Bootloaders/01_Complete_Boot_Flow_Deep_Dive.md) | ROM → SPL → U-Boot → FIT → Kernel → init source walkthrough | B→E |
+| [06_Linux_Kernel/01_Kernel_Internals_Deep_Dive.md](06_Linux_Kernel/01_Kernel_Internals_Deep_Dive.md) | task_struct, CFS, MM, IRQ, VFS, synchronization | B→E |
+| [06_Linux_Kernel/02_Driver_Subsystems_GPIO_Pinctrl_Clock_Regulator.md](06_Linux_Kernel/02_Driver_Subsystems_GPIO_Pinctrl_Clock_Regulator.md) | GPIO, Pinctrl, CCF clocks, Regulator, DMA engine | I→E |
+| [06_Linux_Kernel/03_Advanced_Frameworks_V4L2_DRM_ALSA_PM_Security.md](06_Linux_Kernel/03_Advanced_Frameworks_V4L2_DRM_ALSA_PM_Security.md) | V4L2 camera, DRM/KMS display, ASoC audio, PM, TrustZone | A→E |
+| [07_Device_Drivers/01_Driver_From_Scratch_Complete_Guide.md](07_Device_Drivers/01_Driver_From_Scratch_Complete_Guide.md) | Char driver → platform driver → I2C hwmon → DMA | B→E |
+| [08_Board_Bringup/01_Complete_Board_Bringup_Guide.md](08_Board_Bringup/01_Complete_Board_Bringup_Guide.md) | UART setup → DDR init → Kernel bring-up → debug failures | B→E |
+| [09_Debugging/02_GDB_KGDB_Ftrace_eBPF_Complete.md](09_Debugging/02_GDB_KGDB_Ftrace_eBPF_Complete.md) | GDB/KGDB, ftrace function_graph, bpftrace, KASAN, lockdep | I→E |
+| [12_Open_Source/01_Kernel_Contribution_Complete_Roadmap.md](12_Open_Source/01_Kernel_Contribution_Complete_Roadmap.md) | Kernel, U-Boot, Coreboot, QEMU, OP-TEE contribution workflows | I→E |
+| [17_QEMU_Virtualization/01_QEMU_Projects_Complete_Guide.md](17_QEMU_Virtualization/01_QEMU_Projects_Complete_Guide.md) | 12 projects: sensor driver → secure boot → AI agent | B→E |
+| [18_AI_For_Embedded/01_Complete_Embedded_AI_Track.md](18_AI_For_Embedded/01_Complete_Embedded_AI_Track.md) | ML fundamentals → CNN → Quantization → RKNN → LLM deployment | B→E |
+| [19_AI_Agents/01_Complete_Agent_Building.md](19_AI_Agents/01_Complete_Agent_Building.md) | LangGraph agents, kernel log analyzer, RAG, MCP server | I→E |
+| [20_Freelancing/01_Complete_Freelancing_Roadmap.md](20_Freelancing/01_Complete_Freelancing_Roadmap.md) | Rates, niches, proposals, 1-year income plan | B→A |
+| [21_Interview_Preparation/01_Complete_Interview_Bank.md](21_Interview_Preparation/01_Complete_Interview_Bank.md) | 100+ Q&A: C, kernel, drivers, boot, debugging, AI, system design | B→E |
+| [23_Radxa_5B_Plus_Labs/02_LLM_Deployment_Guide.md](23_Radxa_5B_Plus_Labs/02_LLM_Deployment_Guide.md) | llama.cpp, RKNN NPU, Whisper STT, voice assistant | I→E |
+| [23_Radxa_5B_Plus_Labs/03_Complete_Projects_Portfolio.md](23_Radxa_5B_Plus_Labs/03_Complete_Projects_Portfolio.md) | 10 projects: GPIO LED → AI surveillance → LLM assistant | B→E |
+| [25_20_Year_Career_Survival_Plan/01_AI_Era_20_Year_Strategy.md](25_20_Year_Career_Survival_Plan/01_AI_Era_20_Year_Strategy.md) | AI-era career strategy, income streams, skills calendar | A |
+| [28_Yocto_Build_Mastery/01_Yocto_Buildroot_Complete.md](28_Yocto_Build_Mastery/01_Yocto_Buildroot_Complete.md) | Buildroot + Yocto from scratch, custom recipe, SDK, Rock 5B+ | B→E |
+| [01_C_Programming/01_Multithreading_And_Patterns.md](01_C_Programming/01_Multithreading_And_Patterns.md) | pthreads, mutex, condvar, state machine, deadlock prevention | I→E |
+
+---
+
+## 📋 Changelog
+
+### 2024-07 — Wave 2: Principal Architect Curriculum
+
+New deep-dive guides added:
+- **Boot Flow:** Complete source walkthrough BootROM → SPL → U-Boot → Linux init
+- **Driver Subsystems:** GPIO/Pinctrl/CCF/Regulator/DMA engine with full driver examples
+- **Advanced Kernel Frameworks:** V4L2, DRM/KMS, ASoC, Power Management, TrustZone
+- **QEMU 12 Projects:** Beginner → Expert project series
+- **Radxa 5B+ Portfolio:** 10 projects from GPIO blink to edge AI gateway
+- **Board Bringup Guide:** Complete guide from dead board to running Linux
+- **Open Source Roadmap:** Linux kernel, U-Boot, Coreboot, QEMU, OP-TEE contribution paths
+- **Interview Bank:** 100+ Q&A across all embedded topics with system design scenarios
+- **Embedded AI Track:** ML fundamentals → CNN → quantization → RKNN → LLM deployment
+- **20-Year Strategy:** AI-era career positioning, income streams, skills calendar
+- **Yocto/Buildroot Guide:** Complete build system mastery from scratch to custom image
+
+### 2024-07 — Wave 1: Initial Deep-Dive Guides
+
+- **Kernel Internals:** task_struct, CFS, memory management, VFS, synchronization
+- **Driver from Scratch:** Char → platform → I2C → DMA complete guide
+- **GDB/ftrace/eBPF:** Complete debugging tools reference
+- **LLM Deployment:** llama.cpp + RKNN + voice assistant on Radxa
+- **AI Agents:** LangGraph + kernel log analyzer + RAG pipeline
+- **Freelancing:** Complete roadmap with rates, proposals, income plan
+- **C Multithreading:** pthreads, synchronization, patterns
+
+---
+
 *"The best time to build this knowledge was 11 years ago. The second best time is today."*
 
 ---
 
-**Total Content:** 33 sections | ~800 files | ~125 labs | 850+ interview Q&A | 120+ Mermaid diagrams  
+**Total Content:** 35 sections | 18 deep-dive guides | 125+ labs | 100+ interview Q&A | 50+ working code examples  
 **Estimated completion time:** 3–5 years of consistent daily practice  
 **Maintained by:** Ravi Kumar Bokka | brk4embed@gmail.com | linkedin.com/in/brk4embed
