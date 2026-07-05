@@ -58,7 +58,9 @@ Embedded-Linux-Mastery/
 ├── 29_QEMU_Embedded_AI_Labs/       ← BSP from scratch + LLMs on QEMU + custom NPU model
 ├── 30_Virtual_Platforms/           ← QEMU + ARM FVP + Renode + pKVM + pre-silicon validation
 ├── 31_Hardware_Board_Design/       ← SoC to production board — SW engineer's guide
-└── 32_Complete_System_Design/      ← The full picture: power-on to AI inference (START HERE)
+├── 32_Complete_System_Design/      ← The full picture: power-on to AI inference (START HERE)
+├── 33_Code_Diff_Merge_Tools/       ← diff, patch, meld, vimdiff, quilt, 3-way merge
+└── 34_JIRA_Sprint_Agile/           ← JIRA, sprint planning, Agile for embedded teams
 ```
 
 ---
@@ -96,6 +98,13 @@ Embedded-Linux-Mastery/
 ```
 26_Developer_Commands → 27_AI_Dev_Environment → 10_Code_Browsing →
 18_AI_For_Embedded → 11_Git_Gerrit → 28_Yocto_Build_Mastery
+```
+
+### Track 6: "I want to become confident as a developer (code review, diff, JIRA)"
+```
+33_Code_Diff_Merge_Tools → 10_Code_Browsing → 11_Git_Gerrit →
+34_JIRA_Sprint_Agile → 09_Debugging → 13_Qualcomm_Debugging →
+12_Open_Source → 21_Interview_Preparation
 ```
 
 ---
